@@ -19,7 +19,8 @@ builds:
   - main: cmd/odin/main.go
     env:
       - CGO_ENABLED=0
-    id: "odin"
+    id: odin
+    binary: odin 
     goos:
       - linux
       - windows
