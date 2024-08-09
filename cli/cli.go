@@ -128,7 +128,7 @@ Query using request payload in a json file:
 	suffix := `
 ODIN's primary focus is to equip infosec teams with a precise depiction of the internet, enabling them to strengthen their security defences and proactively detect threats within their attack surface.
 
-For more information about our offerings and services, visit https://getodin.com`
+For more information about our offerings and services, visit https://odin.io`
 
 	rootCmd.SetUsageTemplate(fmt.Sprintf("%s\n%s\n", rootCmd.UsageTemplate(), suffix))
 
