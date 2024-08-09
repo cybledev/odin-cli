@@ -2,7 +2,7 @@
 
 ODIN's primary focus is to equip infosec teams with a precise depiction of the internet, enabling them to strengthen their security defences and proactively detect threats within their attack surface.
 
-The Odin CLI provides a simple way to interact with the [Odin API](https://getodin.com/docs/api) and access various services related to cybersecurity, certificates, exposed buckets, files and more.
+The Odin CLI provides a simple way to interact with the [Odin API](https://odin.io/docs/api) and access various services related to cybersecurity, certificates, exposed buckets, files and more.
 
 ## Installation
 
@@ -58,7 +58,7 @@ Flags:
 
 Use "odin [command] --help" for more information about a command.
 
-For more information about our offerings and services, visit https://getodin.com
+For more information about our offerings and services, visit https://odin.io
 ```
 
 ### Using raw request body
@@ -99,8 +99,8 @@ $ odin hosts search --query="$(cat request.json)"
 
 Detailed command usage can be found in [docs](https://github.com/cybledev/odin-cli/tree/main/docs/odin.md)
 
-Make sure to replace `<APIKey>` with your actual [Odin API key from the odin dashboard](https://getodin.com/account/profile/api-keys).
+Make sure to replace `<APIKey>` with your actual [Odin API key from the odin dashboard](https://odin.io/account/profile/api-keys).
 
 Thank you for using the Odin SDK for Go. If you encounter any issues, find a bug, or want to contribute, feel free to open an issue or submit a pull request. Your feedback and contributions are highly appreciated!
 
-For more information about our other projects and services, visit our website at <https://www.getodin.com>.
+For more information about our other projects and services, visit our website at <https://www.odin.io>.
