@@ -15,6 +15,7 @@ require (
 	github.com/go-openapi/validate v0.24.0
 	github.com/nwidger/jsoncolor v0.3.2
 	github.com/spf13/cobra v1.8.2-0.20240716233629-371ae25d2c82
+	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.19.0
 )
 
@@ -60,7 +61,6 @@ require (
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
-	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/xo/terminfo v0.0.0-20220910002029-abceb7e1c41e // indirect
 	go.mongodb.org/mongo-driver v1.14.0 // indirect
