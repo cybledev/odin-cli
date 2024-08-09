@@ -97,7 +97,7 @@ $ odin hosts search --query="$(cat request.json)"
 
 [<img src="https://github.com/user-attachments/assets/e5e30aeb-3a7a-4f8d-bdbb-443da32fba52" width="50%">](https://github.com/user-attachments/assets/cbc3f6c2-3cfa-4b1d-8ea1-2fa2e3c7c4e0 "Demo Video")
 
-Detailed command usage can be found in [docs](https://github.com/cybledev/odin-cli/src/main/docs/odin.md)
+Detailed command usage can be found in [docs](https://github.com/cybledev/odin-cli/tree/main/docs/odin.md)
 
 Make sure to replace `<APIKey>` with your actual [Odin API key from the odin dashboard](https://getodin.com/account/profile/api-keys).
 
