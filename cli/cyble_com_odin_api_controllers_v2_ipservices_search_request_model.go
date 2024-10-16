@@ -132,8 +132,6 @@ func retrieveCybleComOdinAPIControllersV2IpservicesSearchRequestPropLimitFlags(d
 		m.Limit = &flagLimitValue
 
 		retAdded = true
-	} else {
-		m.Limit = defaultLimit
 	}
 
 	return nil, retAdded

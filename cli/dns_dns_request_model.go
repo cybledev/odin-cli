@@ -222,8 +222,6 @@ func retrieveDNSDNSRequestPropLimitFlags(depth int, m *models.DNSDomainRequest, 
 		m.Limit = &flagLimitValue
 
 		retAdded = true
-	} else {
-		m.Limit = defaultLimit
 	}
 
 	return nil, retAdded

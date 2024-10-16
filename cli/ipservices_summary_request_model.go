@@ -171,8 +171,6 @@ func retrieveIpservicesSummaryRequestPropLimitFlags(depth int, m *models.Ipservi
 		m.Limit = &flagLimitValue
 
 		retAdded = true
-	} else {
-		m.Limit = defaultLimit
 	}
 
 	return nil, retAdded

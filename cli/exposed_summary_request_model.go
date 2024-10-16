@@ -171,8 +171,6 @@ func retrieveExposedSummaryRequestPropLimitFlags(depth int, m *models.ExposedSum
 		m.Limit = &flagLimitValue
 
 		retAdded = true
-	} else {
-		m.Limit = defaultLimit
 	}
 
 	return nil, retAdded

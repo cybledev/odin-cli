@@ -193,8 +193,6 @@ func retrieveExposedSearchRequestPropLimitFlags(depth int, m *models.ExposedSear
 		}
 		m.Limit = &flagLimitValue
 
-	} else {
-		m.Limit = defaultLimit
 	}
 
 	return nil, retAdded

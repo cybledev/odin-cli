@@ -171,8 +171,6 @@ func retrieveCertificateCertSummaryRequestPropLimitFlags(depth int, m *models.Ce
 		m.Limit = &flagLimitValue
 
 		retAdded = true
-	} else {
-		m.Limit = defaultLimit
 	}
 
 	return nil, retAdded
