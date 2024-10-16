@@ -56,7 +56,7 @@ func RunEColorWrapper(f func(cmd *cobra.Command, args []string) (string, error))
 		}
 		isRawOutput, err := cmd.Flags().GetBool("raw-output")
 		if err == nil && isRawOutput {
-			cmd.Print(result)
+			fmt.Println(result)
 			return nil
 		}
 
@@ -74,7 +74,7 @@ func RunEColorWrapper(f func(cmd *cobra.Command, args []string) (string, error))
 		if err != nil {
 			return err
 		}
-		cmd.Print(string(dst))
+		fmt.Println(string(dst))
 		return nil
 	}
 }
